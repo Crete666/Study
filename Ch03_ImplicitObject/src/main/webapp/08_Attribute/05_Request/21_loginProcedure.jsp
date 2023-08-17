@@ -22,11 +22,7 @@
 	<%
 		if(id.equals("admin") && passwd.equals("1234")){
 	%>
-			<!-- 
-			<jsp:forward> action tag는 request 객체를 다른 jsp로 직접 전달할 때 사용
-			참고로, 원칙적으로는 request 기본 객체는 web browser에서만 생성하여
-			web server로 전달 가능
-			-->
+			
 			<jsp:forward page="22_loginSuccess.jsp"></jsp:forward>
 	<%
 		} else {
